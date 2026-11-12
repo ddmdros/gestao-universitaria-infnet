@@ -5,6 +5,6 @@
 
 Ver [dúvidas em aberto](duvidas.md) com estado "Aberto"
 
-### Glossário
+### Pendências
 
-Termos em análise para entrar ou não para o glossário: condição adequada, disponível, empréstimo ativo, cadastro válido, solicitação
+Ver [Pendências](pendencias.md) com estado "Aberto"

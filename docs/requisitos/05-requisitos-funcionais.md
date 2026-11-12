@@ -32,7 +32,7 @@
 | RF16 | O sistema deve recusar o empréstimo de exemplar em condição inadequada | RN04 |
 | RF17 | O sistema deve recusar o empréstimo de um exemplar emprestado | RN05 |
 | RF18 | O sistema deve permitir que somente o administrador processe empréstimos | RN11, A02, S05 |
-| RF19 | O sistema deve calcular o prazo de devolução automaticamente quando um empréstimo é realizado. | RN01 |
+| RF19 | O sistema deve calcular o prazo de 14 dias corridos de devolução automaticamente quando um empréstimo é realizado. A data de retirada é o dia 0, e não contabiliza para os 14 dias corridos do prazo de devolução. | RN01, S01 |
 | RF20 | O sistema deve permitir que os membros solicitem devoluções | A01 |
 | RF21 | O sistema deve permitir que somente o administrador processe devoluções | RN11, A02, S05 |
 | RF22 | O sistema deve encerrar o empréstimo ativo correspondente quando uma devolução for realizada | RN08 |

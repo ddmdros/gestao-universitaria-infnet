@@ -4,23 +4,23 @@
 
 | ID   | Requisito funcional                                                              | Origem         |
 | ---  | ---                                                                              | ---            |
-| RF01 | O sistema deve permitir que somente o administrador cadastre livros no acervo | RN11, A02, S04 |
-| RF02 | O sistema deve permitir que somente o administrador cadastre exemplares no acervo | RN11, A02, S04 |
+| RF01 | O sistema deve permitir que somente o administrador cadastre livros no acervo | RN11, A02, D04 |
+| RF02 | O sistema deve permitir que somente o administrador cadastre exemplares no acervo | RN11, A02, D04 |
 | RF03 | O sistema deve permitir que membros e administradores consultem livros do acervo | RN11, A01, A02 |
 | RF04 | O sistema deve permitir que membros e administradores consultem exemplares do acervo | RN11, A01, A02 |
 | RF05 | O sistema deve permitir que, dado um livro, os membros consultem a disponibilidade de exemplares | A01 |
-| RF06 | O sistema deve permitir que somente o administrador atualize os atributos de livros e exemplares, inclusive o estado de conservação do exemplar. | RN11, A02, S04, RN10, RF16 |
+| RF06 | O sistema deve permitir que somente o administrador atualize os atributos de livros e exemplares,  inclusive o estado de conservação do exemplar. | RN11, A02, D04, RN10, RF16 |
 | ~~RF07~~ | ~~O sistema deve permitir que somente o administrador atualize o estado de conservação de um exemplar~~ *(fundido no RF06)* | ~~RN10, RF16~~ |
-| RF08 | O sistema deve permitir que somente o administrador remova livros e exemplares do acervo | RN11, A02, S04 | 
+| RF08 | O sistema deve permitir que somente o administrador remova livros e exemplares do acervo | RN11, A02, D04 | 
 
 ## Membros
 
 | ID   | Requisito funcional                                                              | Origem         |
 | ---  | ---                                                                              | ---            |
-| RF09 | O sistema deve permitir que somente o administrador cadastre registros dos membros | RN11, A02, S04 |
-| RF10 | O sistema deve permitir que o administrador consulte registros dos membros | RN11, A02, S04 |
-| RF11 | O sistema deve permitir que somente o administrador atualize registros dos membros | RN11, A02, S04 |
-| RF12 | O sistema deve permitir que somente o administrador remova registros dos membros | RN11, S04, A02 |
+| RF09 | O sistema deve permitir que somente o administrador cadastre registros dos membros | RN11, A02, D04 |
+| RF10 | O sistema deve permitir que o administrador consulte registros dos membros | RN11, A02, D04 |
+| RF11 | O sistema deve permitir que somente o administrador atualize registros dos membros | RN11, A02, D04 |
+| RF12 | O sistema deve permitir que somente o administrador remova registros dos membros | RN11, D04, A02 |
 | RF13 | O sistema deve impedir que membros sem cadastro válido realizem empréstimos ou reservas | RN12 |
 
 ## Empréstimo e devolução
@@ -31,10 +31,10 @@
 | RF15 | O sistema deve recusar o empréstimo quando o membro tiver 3 empréstimos simultâneos ativos. | RN03 |
 | RF16 | O sistema deve recusar o empréstimo de exemplar em condição inadequada | RN04 |
 | RF17 | O sistema deve recusar o empréstimo de um exemplar emprestado | RN05 |
-| RF18 | O sistema deve permitir que somente o administrador processe empréstimos | RN11, A02, S05 |
-| RF19 | O sistema deve calcular o prazo de 14 dias corridos de devolução automaticamente quando um empréstimo é realizado. A data de retirada é o dia 0, e não contabiliza para os 14 dias corridos do prazo de devolução. | RN01, S01 |
+| RF18 | O sistema deve permitir que somente o administrador processe empréstimos | RN11, A02, D05 |
+| RF19 | O sistema deve calcular o prazo de 14 dias corridos de devolução automaticamente quando um empréstimo é realizado. A data de retirada é o dia 0, e não contabiliza para os 14 dias corridos do prazo de devolução. | RN01, D01 |
 | RF20 | O sistema deve permitir que os membros solicitem devoluções | A01 |
-| RF21 | O sistema deve permitir que somente o administrador processe devoluções | RN11, A02, S05 |
+| RF21 | O sistema deve permitir que somente o administrador processe devoluções | RN11, A02, D05 |
 | RF22 | O sistema deve encerrar o empréstimo ativo correspondente quando uma devolução for realizada | RN08 |
 | RF23 | O sistema deve registrar a data efetiva de devolução automaticamente quando uma devolução for realizada | RN08 |
 
@@ -50,7 +50,7 @@
 ## Reserva
 | ID | Requisito funcional | Origem |
 |---|---|---|
-| RF28 | O sistema deve permitir que um livro possa ser reservado somente quando pelo menos 1 exemplar estiver emprestado e não houver nenhum exemplar correspondente disponível. (ver `S02`) | RN06, S02 |
+| RF28 | O sistema deve permitir que um livro possa ser reservado somente quando pelo menos 1 exemplar estiver emprestado e não houver nenhum exemplar correspondente disponível. (ver `D02`) | RN06, D02 |
 | RF29 | O sistema deve permitir que os membros e o administrador criem uma reserva. | RN11, A01, A02, OQ02 |
 | RF30 | O sistema deve permitir que o administrador consulte uma fila de reserva. | RN11, A02, OQ02 |
 | RF31 | O sistema deve permitir que o administrador cancele um registro de uma fila de reserva. | RN11, A02, OQ02 |

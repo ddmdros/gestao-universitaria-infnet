@@ -14,4 +14,4 @@ Registra e define termos relevantes ao projeto para evitar ambiguidades.
 
 **Condição adequada**: estado de conservação conservado (RN04, RF16)
 
-**Disponível**: condição adequada e sem empréstimo ativo (RN04, RN06, RF28, S02)
+**Disponível**: condição adequada e sem empréstimo ativo (RN04, RN06, RF28, D02)

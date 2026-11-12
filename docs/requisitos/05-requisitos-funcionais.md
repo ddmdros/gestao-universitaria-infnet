@@ -6,12 +6,12 @@
 | ---  | ---                                                                              | ---            |
 | RF01 | O sistema deve permitir que somente o administrador cadastre livros no acervo | RN11, A02, S04 |
 | RF02 | O sistema deve permitir que somente o administrador cadastre exemplares no acervo | RN11, A02, S04 |
-| RF03 | O sistema deve permitir que membros e administradores consultem livros do acervo. | RN11, A01, A02 |
-| RF04 | O sistema deve permitir que membros e administradores consultem exemplares do acervo. | RN11, A01, A02 |
+| RF03 | O sistema deve permitir que membros e administradores consultem livros do acervo | RN11, A01, A02 |
+| RF04 | O sistema deve permitir que membros e administradores consultem exemplares do acervo | RN11, A01, A02 |
 | RF05 | O sistema deve permitir que, dado um livro, os membros consultem a disponibilidade de exemplares | A01 |
-| RF06 | O sistema deve permitir que somente o administrador atualize livros e exemplares do acervo | RN11, A02, S04 |
-| RF07 | O sistema deve permitir que o administrador regularize a condição de exemplares danificados ou indisponíveis para uso | RN10, RF16 |
-| RF08 | O sistema deve permitir que somente o administrador remova livros e exemplares do acervo | RN11, A02, S04 |
+| RF06 | O sistema deve permitir que somente o administrador atualize os atributos de livros e exemplares, inclusive o estado de conservação do exemplar. | RN11, A02, S04, RN10, RF16 |
+| ~~RF07~~ | ~~O sistema deve permitir que somente o administrador atualize o estado de conservação de um exemplar~~ *(fundido no RF06)* | ~~RN10, RF16~~ |
+| RF08 | O sistema deve permitir que somente o administrador remova livros e exemplares do acervo | RN11, A02, S04 | 
 
 ## Membros
 

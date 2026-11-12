@@ -9,3 +9,9 @@ Registra e define termos relevantes ao projeto para evitar ambiguidades.
 **Membro**: Usuários finais do sistema da biblioteca: aluno, professor ou funcionário. Ver A01.
 
 **Administrador**: Responsável pelas atividades administrativas do sistema da biblioteca. Ver A02.
+
+**Aposentado**: removido do acervo de forma definitiva por motivos variados
+
+**Condição adequada**: estado de conservação conservado (RN04, RF16)
+
+**Disponível**: condição adequada e sem empréstimo ativo (RN04, RN06, RF28, S02)

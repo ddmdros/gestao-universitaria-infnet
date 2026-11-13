@@ -1,0 +1,47 @@
+# Casos de uso
+
+O diagrama abaixo representa os principais casos de uso.
+
+![07-casos-de-uso.png](diagramas/07-casos-de-uso.png)
+
+
+## UC01 - Realizar empréstimo (RF14-RF19)
+Ator principal: Administrador
+Ator secundário: Membro
+
+### Resumo:
+
+### Pré-condições:
+1. Administrador autenticado
+2. Usuário possui credenciais
+
+### Pós-condições: 
+
+### Cenário principal
+
+1. O membro fornece suas credenciais de acesso ao sistema  
+
+2. O sistema valida as credenciais do membro  
+
+3. O sistema verifica se o membro não tem condições bloqueantes de empréstimo (3 empréstimos simultâneos ativos, por exemplo)  
+
+4. O bibliotecário informa o ID do exemplar ao sistema
+
+5. O sistema verifica se o exemplar pode ser emprestado  
+
+6. O Administrador processa o empréstimo em nome do membro
+
+7. O membro pode optar por receber lembretes de devolução por e-mail ou via SMS
+
+#### Extensões
+3.a) O Membro não tem cadastro (RF14)
+3.b) O Membro não lembra suas credenciais de acesso (RF15)
+4.a) As credenciais de acesso do Membro são inválidas 0
+5.a) O Membro tem 3 empréstimos simultâneos ativos
+5.b) O Membro tem multas a pagar
+6.a) O exemplar não tem ID válido
+7.a) O exemplar não deveria estar disponível para empréstimo, pois sua condição é diferente de conservado 
+
+## Processar devolução (RF20-RF25)
+
+## Reservar livro (RF28-RF29)

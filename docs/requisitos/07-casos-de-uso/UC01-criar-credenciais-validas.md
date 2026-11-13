@@ -3,14 +3,19 @@
 Ator principal: AdministradorDeCredenciais
 Ator secundário: Membro ou Administrador
 
-### Resumo: O AdministradorDeCredenciais cria credenciais válidas para o administrador ou membro solicitante
+### Resumo:
+
+O AdministradorDeCredenciais cria credenciais válidas para o administrador ou membro solicitante
 
 ### Pré-condições:
 
 1. Um admnistrador do tipo administradorDeCredenciais válido
 2. Um membro ou administrador solicitante
 
-### Pós-condições: o membro ou admnistrador solicitante agora possui credenciais válidas
+### Pós-condições:
+
+1. O membro ou admnistrador solicitante agora possui credenciais válidas
+2. Se solicitado, o solicitante pode receber notificações (UC-06)
 
 ### Cenário principal
 

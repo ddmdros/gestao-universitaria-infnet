@@ -7,8 +7,8 @@ O diagrama abaixo ilustra os principais casos de uso:
 ## Índice
 
 - [UC01 - Criar credenciais válidas](UC01-criar-credenciais-validas.md)
-- [UC02 - Realizar autenticação]()
-- UC03 - Cadastrar livros e exemplares
+- [UC02 - Realizar autenticação](UC02-realizar-autenticacao.md)
+- [UC03 - Cadastrar livros e exemplares](UC03-gerenciar-livros-e-exemplares.md)
 - UC04 - Consultar acervo
 - UC05 - Movimentar acervo (abstrato)
 

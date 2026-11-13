@@ -23,7 +23,7 @@
 | RF12 | O sistema deve permitir que somente o administrador remova registros dos membros | RN11, D04, A02 |
 | RF13 | O sistema deve impedir que membros sem cadastro válido realizem empréstimos ou reservas | RN12 |
 
-## Empréstimo e devolução
+## Realizar um empréstimo
 
 | ID   | Requisito funcional                                                              | Origem         |
 | ---  | ---                                                                              | ---            |
@@ -33,6 +33,10 @@
 | RF17 | O sistema deve recusar o empréstimo de um exemplar emprestado | RN05 |
 | RF18 | O sistema deve permitir que somente o administrador processe empréstimos | RN11, A02, D05 |
 | RF19 | O sistema deve calcular o prazo de 14 dias corridos de devolução automaticamente quando um empréstimo é realizado. A data de retirada é o dia 0, e não contabiliza para os 14 dias corridos do prazo de devolução. | RN01, D01 |
+
+## Processar devolução
+| ID   | Requisito funcional                                                              | Origem         |
+| ---  | ---                                                                              | ---            |
 | RF20 | O sistema deve permitir que os membros solicitem devoluções | A01 |
 | RF21 | O sistema deve permitir que somente o administrador processe devoluções | RN11, A02, D05 |
 | RF22 | O sistema deve encerrar o empréstimo ativo correspondente quando uma devolução for realizada | RN08 |
@@ -55,6 +59,13 @@
 | RF30 | O sistema deve permitir que o administrador consulte uma fila de reserva. | RN11, A02, OQ02 |
 | RF31 | O sistema deve permitir que o administrador cancele um registro de uma fila de reserva. | RN11, A02, OQ02 |
 
-
-
-
+## Verificação e login
+| ID | Requisito funcional | Origem |
+|---|---|---|
+| RF32 | O administrador de credenciais deve ser capaz de criar e modificar credenciais para os membros e administradores (incluindo bibliotecarios e os próprios administradores de credenciais) | UC01 |
+| RF34 | O sistema deve permitir que o membro e o administrador forneçam suas credenciais de acesso ao sistema | UC01 |
+| RF35 | O sistema deve ser capaz de validar as credenciais de acesso de membros e administradores aos sistema  | UC01 |
+| RF36 | O sistema deve fornecer métodos de recuperação de acesso de credenciais caso o membro ou administrador esqueça das suas credenciais | UC01 |
+| RF37 | O sistema deve validar de forma automática se o vínculo do membro ou administrador com a universidade continua ativo | UC02 |
+| RF38 | O sistema deve bloquear a autenticação de acesso do membro ou administrador que está há mais de seis meses afastado da universidade. | UC02 |
+| RF39 | O sistema deve permitir que o membro ou administrador solicite recuperação das suas credenciais caso as esqueça | UC02 |

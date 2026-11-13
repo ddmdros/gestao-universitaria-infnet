@@ -1,6 +1,6 @@
 # Regras de Negócio (RN)
 
-As regras de negócio foram fornecidas pelo enunciado do TP1 e foram preservadas em sua integralidade, incluindo a ordem em que foram apresentadas. Aqui, apenas acrescentamos um ID e as organizamos em módulos para facilitar sua identificação.
+As regras de negócio de RN01-RN12 foram fornecidas pelo enunciado do TP1 e foram preservadas em sua integralidade, incluindo a ordem em que foram apresentadas. Aqui, apenas acrescentamos um ID e as organizamos em módulos para facilitar sua identificação. As demais foram decisões tomadas pela equipe.
 
 Fonte: [enunciado TP](../infnet/TP1/enunciado.md).
 
@@ -19,4 +19,4 @@ Fonte: [enunciado TP](../infnet/TP1/enunciado.md).
 | RN10 | Exemplares danificados ou indisponíveis para uso não podem ser emprestados até que sua condição seja regularizada pelo bibliotecário. | Acervo |
 | RN11 | Somente o Bibliotecário/Administrador pode cadastrar ou alterar os registros do acervo e dos membros, processar operações administrativas e gerenciar multas. | Transversal (acesso do adm) |
 | RN12 | Os membros devem possuir cadastro válido para realizar empréstimos e reservas.| Membros |
-
+| RN13 | Documentos válidos para criação de credenciais (D07): <br/>Estudante: atestado de matrícula/histórico escolar recente (últimos 3 meses)<br/>Professor: contracheque recente (últimos 3 meses)<br/>Funcionário: contracheque recente (últimos 3 meses)<br/>Bibliotecário e administrador de credenciais: contracheque recente (últimos 3 meses)| Credenciais |

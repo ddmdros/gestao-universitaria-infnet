@@ -13,7 +13,7 @@ O membro ou administrador insere suas credenciais no sistema, que faz a validaç
 ## Pós-condições
 
 1. O membro ou administrador agora tem acesso ao sistema.
-2. Se solicitado, o membro ou administrador solicitante pode receber uma notificação confirmando a operação (ver UC06).
+2. Se solicitado, o membro ou administrador solicitante pode receber uma notificação confirmando a operação.
 
 ## Cenário principal
 

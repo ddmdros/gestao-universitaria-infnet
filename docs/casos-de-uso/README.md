@@ -2,7 +2,7 @@
 
 O diagrama abaixo ilustra os principais casos de uso:
 
-![diagrama-casos-de-uso](diagramas/diagrama-casos-de-uso.png)
+![diagrama-casos-de-uso](diagramas/diagramas-casos-de-uso.png)
 
 ## Índice
 

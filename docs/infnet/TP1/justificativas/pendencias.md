@@ -13,3 +13,4 @@
 | P10 | Exemplar devolvido danificado. | Aberto | |
 | P11 | Reservas duplicadas. Ex.: membro reservando um livro que ele mesmo já tem emprestado. | Aberto | |
 | P12  | Oito RFs dizem "somente administrador", mas nada foi definido sobre autenticação | Aberto | |
+| P13 | Falta criar os UC07 e 08 | Aberto | |

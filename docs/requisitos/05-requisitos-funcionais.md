@@ -65,7 +65,8 @@
 | RF32 | O administrador de credenciais deve ser capaz de criar e modificar credenciais para os membros e administradores (incluindo bibliotecarios e os próprios administradores de credenciais) | UC01 |
 | RF34 | O sistema deve permitir que o membro e o administrador forneçam suas credenciais de acesso ao sistema | UC01 |
 | RF35 | O sistema deve ser capaz de validar as credenciais de acesso de membros e administradores aos sistema  | UC01 |
-| RF36 | O sistema deve fornecer métodos de recuperação de acesso de credenciais caso o membro ou administrador esqueça das suas credenciais | UC01 |
+| RF36 | O sistema deve fornecer métodos de recuperação de acesso de credenciais caso o membro ou administrador esqueça das suas credenciais | UC07 |
 | RF37 | O sistema deve validar de forma automática se o vínculo do membro ou administrador com a universidade continua ativo | UC02 |
 | RF38 | O sistema deve bloquear a autenticação de acesso do membro ou administrador que está há mais de seis meses afastado da universidade. | UC02 |
-| RF39 | O sistema deve permitir que o membro ou administrador solicite recuperação das suas credenciais caso as esqueça | UC02 |
+| RF39 | O sistema deve bloquear o acesso do membro ou administrador após errar 5 tentativas de login | UC02 |
+| RF40 | O sistema deve permitir que o membro ou administrador recupere a conta bloqueada | UC08 | 

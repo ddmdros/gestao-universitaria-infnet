@@ -15,3 +15,5 @@ O diagrama abaixo ilustra os principais casos de uso:
   - UC05.2 - Reservar livro
   - UC05.3 - Processar devolução
 - UC06 - Receber lembretes
+- UC07 - Solicitar recuperação de credenciais (login ou senha)
+- UC08 - Recuperar a conta bloqueada

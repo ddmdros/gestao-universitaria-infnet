@@ -14,3 +14,4 @@
 | P11 | Reservas duplicadas. Ex.: membro reservando um livro que ele mesmo já tem emprestado. | Aberto | |
 | P12  | ~~Oito RFs dizem "somente administrador", mas nada foi definido sobre autenticação~~ | Resolvido | Seção de verificação e login criada em RF; distinçao entre bibliotecário e administrador de credenciais criada |
 | P13 | Falta criar os UC07 e 08 | Aberto | Fica para o TP2 |
+| P14 | Definir campos obrigatórios de livro e exemplar | Aberto | Fica para o TP2 |

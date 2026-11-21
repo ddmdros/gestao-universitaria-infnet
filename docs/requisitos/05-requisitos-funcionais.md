@@ -48,7 +48,7 @@
 |---|---|---|
 | RF24 | O sistema deve calcular a multa automaticamente quando um exemplar é devolvido com atraso. | RN02, RF19 |
 | RF25 | O sistema deve vincular a multa por atraso ao membro responsável pelo empréstimo | RN09, RF19 |
-| RF26 | O sistema deve permitir que o administrador consulte multas de membros | RN11, A02, OQ01, OQ06|
+| RF26 | O sistema deve permitir que o administrador consulte multas de membros | RN11, A02, OQ01, D06 |
 | RF27 | O sistema deve permitir que o administrador marque uma multa como paga. | RN11, A02, OQ01| 
 
 ## Reserva

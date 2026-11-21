@@ -16,3 +16,4 @@
 | P13 | Falta criar os UC07 e 08 | Aberto | Fica para o TP2 |
 | P14 | Definir campos obrigatórios de livro e exemplar | Aberto | Fica para o TP2 |
 | P15 | Definir por qual atributo livros e exemplares serão identificados pelo sistema | Aberto | Fica para o TP2 |
+| P16 | Escrever casos de uso faltantes (UC04-UC08) | Aberto | Fica para o TP2 |
